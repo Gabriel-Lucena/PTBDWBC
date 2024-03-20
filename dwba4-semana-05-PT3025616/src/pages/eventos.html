@@ -7,6 +7,104 @@
     <link rel="icon" href="../images/favicon_ifsp.ico" />
   </head>
   <body>
-    <object data="./header_pages.html" type="text/html" width="100%"></object>
+    <header>
+      <div id="Topo" style="position: absolute; top: 0; right: 0">
+        <p>
+          <a href="../../index.html">HOME</a> |
+          <a href="./eventos.html">EVENTOS</a> |
+          <a href="./contato.html">CONTATO</a> |
+          <a href="./sobre.html">SOBRE</a> |
+          <a href="./entrar.html">ENTRAR</a>
+        </p>
+      </div>
+    </header>
+
+    <h1>Inscreva-se</h1>
+
+    <form action="" method="post">
+      <fieldset>
+        <label for="evento">Evento</label>
+        <select name="estado">
+          <option value="selecione">-- Selecione --</option>
+          <option value="voe_sem_asas">Voe sem asas</option>
+          <option value="festa_junina">Festa junina</option>
+          <option value="semana_tecnologia">Semana da tecnologia</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Informações de Acesso</legend>
+
+        <label for="usuario">Usuário</label>
+        <input type="text" name="usuario" id="usuario" required /> <br />
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" required /> <br />
+
+        <label for="confirmar_senha">Confirme a senha</label>
+        <input
+          type="password"
+          name="confirmar_senha"
+          id="confirmar_senha"
+          required
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>Informações Pessoais</legend>
+
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome" id="nome" /> <br />
+
+        <label for="email">E-mail</label>
+        <input type="text" name="email" id="email" /> <br />
+
+        <label for="celular">Celular</label>
+        <input type="text" name="celular" id="celular" />
+        (99) 99999-9999
+        <br />
+
+        <fieldset>
+          <legend>Sexo</legend>
+
+          <label for="masculino">Masculino</label>
+          <input
+            type="radio"
+            name="sexo_masculino"
+            id="masculino"
+            value="masculino"
+          />
+
+          <label for="feminino">Feminino</label>
+          <input type="radio" name="sexo_feminino" id="feminino" />
+        </fieldset>
+
+        <label for="data_nascimento">Data de Nascimento</label>
+        <input type="date" name="data_nascimento" id="data_nascimento" /> <br />
+
+        <label for="cor_favorita">Cor Favorita</label>
+        <input type="color" name="cor_favorita" id="cor_favorita" /> <br />
+
+        <label for="perfil_github">Perfil no Github</label>
+        <input type="url" name="perfil_github" id="perfil_github" />
+      </fieldset>
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- link do facebook com foto + endereço da escola -->
+
+    <br />
+
+    <a href="https://www.facebook.com/ifsppirituba/?locale=pt_BR">
+      <img src="../images/facebook.png" width="50" height="50" />
+    </a>
+
+    <footer>
+      <p>
+        IFSP - Campus Pirutuba - Av. Mutinga, 951 - Jardim Santo Elias - CEP:
+        05110-000 - São Paulo/SP - Contato: (011) 2504-0100
+      </p>
+    </footer>
   </body>
 </html>
