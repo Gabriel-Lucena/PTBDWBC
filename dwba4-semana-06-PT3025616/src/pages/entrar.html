@@ -6,6 +6,7 @@
     <title>Entrar</title>
 
     <link rel="stylesheet" href="../styles/commom/header.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/pages/entrar.css" type="text/css" />
     <link rel="stylesheet" href="../styles/commom/footer.css" type="text/css" />
 
     <link rel="icon" href="../images/favicon_ifsp.ico" />
@@ -42,21 +43,31 @@
 
     <h1>Entrar</h1>
 
+    <br />
+
     <form>
-      <label for="usuario">Usuário</label>
-      <input type="text" id="usuario" required />
+      <div id="usuario">
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario" required />
+      </div>
 
       <br />
+
+      <div id="senha">
+        <label for="senha">Senha</label>
+        <input type="text" id="senha" required />
+      </div>
+
       <br />
 
-      <label for="senha">Senha</label>
-      <input type="text" id="senha" required />
+      <div id="entrar">
+        <input type="submit" value="Entrar" />
 
-      <br />
-      <br />
+        <br />
+        <br />
 
-      <input type="submit" value="Entrar" />
-      <a href="">Esqueci a senha</a>
+        <a href="">Esqueci a senha</a>
+      </div>
     </form>
 
     <br />
