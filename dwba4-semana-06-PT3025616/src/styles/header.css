@@ -22,9 +22,7 @@ body {
   text-decoration: none;
 }
 
-/* Tem que mandar essa porra à esquerda caralho */
-
-.navbar a #sobre {
+.navbar a:last-of-type {
   float: right;
 }
 
