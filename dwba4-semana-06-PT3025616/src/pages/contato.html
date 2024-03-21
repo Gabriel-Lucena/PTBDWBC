@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>Contato</title>
 
-    <link rel="stylesheet" href="../styles/commom/header.css" type="text/css">
+    <link rel="stylesheet" href="../styles/commom/header.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/pages/contato.css" type="text/css" />
     <link rel="stylesheet" href="../styles/commom/footer.css" type="text/css" />
 
     <link rel="icon" href="../images/favicon_ifsp.ico" />
@@ -53,20 +54,20 @@
         </li>
 
         <li>
-          <label for="email">E-Mail</label>
+          <label for="email">E-Mail</label> <br />
           <input type="text" name="email" id="email" />
         </li>
 
         <li>
-          <label for="telefone">Telefone</label>
+          <label for="telefone">Telefone (99) 99999-9999</label> <br />
           <input type="tetx" name="telefone" id="telefone"
           pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"
           required/>
-          (99) 99999-9999
+
         </li>
 
         <li>
-          <label for="assunto">Assunto</label>
+          <label for="assunto">Assunto</label> <br />
           <select name="assunto">
             <option value="selecione">-- Selecione --</option>
             <option value="reclamacao">Reclamação</option>
@@ -75,30 +76,29 @@
         </li>
 
         <li>
-          <label for="mensagem">Mensagem</label>
+          <label for="mensagem">Mensagem</label> <br />
           <textarea name="mensagem" id="mensagem" cols="15" rows="3"></textarea>
         </li>
 
         <li>
           <fieldset>
             <legend>Opções de Resposta</legend>
-            <label for="email">E-Mail</label>
+            <label for="email_option" id="email_option_label">E-Mail</label>
             <input
               type="checkbox"
-              name="email"
-              id="email"
+              name="email_option"
+              id="email_option"
               value="email"
             />
 
-            <label for="telefone">Telefone</label>
-            <input type="checkbox" name="telefone" id="telefone" value="telefone"/>
+            <label for="telefone_option">Telefone</label>
+            <input type="checkbox" name="telefon_optione" id="telefone_option" value="telefone"/>
+
           </fieldset>
         </li>
 
-        <li>
-          <input type="submit" value="Enviar" />
-        </li>
       </ul>
+      <input type="submit" value="Enviar" />
     </form>
 
     <br />
