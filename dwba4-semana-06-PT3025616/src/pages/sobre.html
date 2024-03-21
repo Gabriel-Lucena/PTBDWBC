@@ -4,25 +4,41 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Sobre</title>
+
+    <link rel="stylesheet" href="../styles/header.css" type="text/css" />
+
     <link rel="icon" href="../images/favicon_ifsp.ico" />
   </head>
 
   <body>
     <header>
-      <div id="Topo" style="position: absolute; top: 0; right: 0">
-        <p>
-          <a href="../../index.html">HOME</a> |
-          <a href="./eventos/eventos.html">EVENTOS</a> |
-          <a href="./contato.html">CONTATO</a> |
-          <a href="./sobre.html">SOBRE</a> |
-          <a href="./entrar.html">ENTRAR</a>
-        </p>
+      <div class="navbar">
+        <a href="../../index.html">HOME</a>
+        <a href="./eventos/eventos.html">EVENTOS</a>
+        <a href="./contato.html">CONTATO</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            CURSOS
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./courses/ads.html"
+              >Análise e Desenvolvimento de Sistemas</a
+            >
+            <a href="./courses/engProd.html">Engenharia de Produção</a>
+          </div>
+        </div>
+        <a href="./entrar.html">ENTRAR</a>
+
+        <a href="./sobre.html" id="sobre">SOBRE</a>
+      </div>
+
+      <div id="div_logo">
+        <img src="../images/IFSP_logo.jpg" alt="Logo do IFSP" />
       </div>
     </header>
 
     <br /><br />
-
-    <img src="../images/IFSP_logo.jpg" alt="Logotipo do IFSP" />
 
     <h1>Sobre</h1>
 
