@@ -73,7 +73,7 @@ body {
   display: block;
 }
 
-#div_logo {
+header > div:last-of-type {
   height: 119px;
 
   background-color: #008f2e;
