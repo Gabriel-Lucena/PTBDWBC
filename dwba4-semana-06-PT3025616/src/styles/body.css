@@ -1,0 +1,24 @@
+/*
+* Seleciona a partir da
+* segunda div
+*/
+
+body > div:nth-child(n + 2) {
+  margin-left: auto;
+  margin-right: auto;
+  width: 390px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center; /* Centraliza os itens na horizontal */
+}
+
+/*
+* Seleciona a primeira img
+* da primeira div do body
+*/
+
+body > div:first-of-type img:first-of-type {
+  border-radius: 50%;
+}

@@ -22,7 +22,7 @@ body {
   text-decoration: none;
 }
 
-.navbar a:last-of-type {
+.navbar > a:last-child {
   float: right;
 }
 
