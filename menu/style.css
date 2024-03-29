@@ -7,18 +7,24 @@ html {
 
   background: linear-gradient(45deg, rgb(52, 152, 219), rgb(37, 90, 126));
   background-size: 600% 600%;
-  animation: gradientAnimation 10s ease-in-out infinite;
+  animation: gradientAnimation 10s ease-in-out infinite alternate;
 }
 
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
   }
+  25% {
+    background-position: 20% 50%;
+  }
   50% {
-    background-position: 100% 50%;
+    background-position: 40% 50%;
+  }
+  75% {
+    background-position: 60% 50%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 80% 50%;
   }
 }
 
