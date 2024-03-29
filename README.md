@@ -1,4 +1,4 @@
-# Desenvolvimento web: Cliente - Exercícios e Aulas
+# Desenvolvimento web: Cliente - [Exercícios](./index.html) e Aulas
 
 Repositório da disciplina de [Desenvolvimento web: Cliente](https://drive.ifsp.edu.br/s/CS3ah4zmKiNCYTy#pdfviewer) do terceiro semestre do curso de [Análise e Desenvolvimento de Sistemas](https://ptb.ifsp.edu.br/index.php/superiores/ads) do [IFSP-Pirituba](https://ptb.ifsp.edu.br/).
 
