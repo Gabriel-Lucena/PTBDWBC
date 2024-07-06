@@ -38,6 +38,6 @@ body > div:first-of-type img:first-of-type {
   display: flex;
 
   border-style: dashed;
-  border-color: black ;
+  border-color: black;
   border-width: 1px;
 }
