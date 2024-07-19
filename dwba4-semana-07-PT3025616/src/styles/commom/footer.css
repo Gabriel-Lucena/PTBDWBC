@@ -1,0 +1,4 @@
+footer > a > img:last-child,
+footer > p:last-of-type {
+  margin-top: 25px;
+}
