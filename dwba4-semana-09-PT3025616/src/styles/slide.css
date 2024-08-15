@@ -6,6 +6,10 @@
   margin-top: 3%;
 }
 
+.slideshow-container > div > iframe {
+  margin: 0 0 0 23%;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
