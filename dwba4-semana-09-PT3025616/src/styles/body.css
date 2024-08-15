@@ -3,7 +3,7 @@
 * segunda div
 */
 
-body > div:nth-child(n + 5) {
+body > div:nth-child(n + 6) {
   width: 390px;
 
   margin-left: auto;
