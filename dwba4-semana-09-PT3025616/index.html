@@ -10,6 +10,7 @@
       href="./src/styles/commom/header.css"
       type="text/css"
     />
+    <link rel="stylesheet" href="./src/styles/slide.css" type="text/css" />
     <link rel="stylesheet" href="./src/styles/body.css" type="text/css" />
     <link
       rel="stylesheet"
@@ -56,21 +57,39 @@
     <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
+        <div class="numbertext">1 / 4</div>
         <img src="./src/images/A.png" style="width: 100%" />
         <div class="text">Caption Text</div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="./src/images/B.png" style="width: 100%" />
+        <div class="numbertext">2 / 4</div>
+        <img src="./src/images/B.jpg" style="width: 100%" />
         <div class="text">Caption Two</div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="./src/images/C.png" style="width: 100%" />
+        <div class="numbertext">3 / 4</div>
+        <img src="./src/images/C.jpg" style="width: 100%" />
         <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+
+        <h3>Conheça os desafios de inovação</h3>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/5g5LQe3m8Po?si=1kN88_KJwj00WIT9"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <div class="text">Caption Four</div>
       </div>
 
       <!-- Next and previous buttons -->
@@ -84,6 +103,7 @@
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
     </div>
 
     <div class="grid-container">
@@ -146,4 +166,5 @@
       </p>
     </footer>
   </body>
+  <script src="./src/js/slide.js" defer></script>
 </html>
