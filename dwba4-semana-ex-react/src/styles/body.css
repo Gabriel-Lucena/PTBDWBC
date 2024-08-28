@@ -1,0 +1,62 @@
+/*
+* Seleciona a partir da
+* segunda div
+*/
+
+body > div:nth-child(n + 6) {
+  width: 390px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  margin: 5% 4% 1% 4%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 200px;
+  column-gap: 200px;
+  row-gap: 70px;
+}
+
+.grid-item {
+  height: fit-content;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item > img {
+  max-height: 160px;
+  margin-bottom: 5%;
+}
+
+.grid-item > p:first-of-type {
+  font-weight: bold;
+}
+
+#paragrafo {
+  width: 95%;
+
+  justify-content: center;
+  display: flex;
+
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px;
+}

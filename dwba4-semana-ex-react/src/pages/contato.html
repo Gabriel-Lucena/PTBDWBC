@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="../styles/commom/header.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/pages/contato.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/commom/footer.css" type="text/css" />
+
+    <link rel="icon" href="../images/favicon_ifsp.ico" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="../../index.html">HOME</a>
+        <a href="./eventos/eventos.html">EVENTOS</a>
+        <a href="./contato.html">CONTATO</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            CURSOS
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./courses/ads.html"
+              >Análise e Desenvolvimento de Sistemas</a
+            >
+            <a href="./courses/engProd.html"
+              >Engenharia de Produção</a
+            >
+          </div>
+        </div>
+        <a href="./entrar.html">ENTRAR</a>
+
+        <a href="./sobre.html" id="sobre">SOBRE</a>
+      </div>
+
+      <div id="div_logo">
+        <img src="../images/IFSP_logo.jpg" alt="Logo do IFSP" />
+      </div>
+    </header>
+
+    <br /><br />
+
+    <h1>Mande uma mensagem</h1>
+
+    <form>
+      <ul>
+        <li>
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" required/>
+        </li>
+
+        <li>
+          <label for="email">E-Mail</label> <br />
+          <input type="text" name="email" id="email" />
+        </li>
+
+        <li>
+          <label for="telefone">Telefone (99) 99999-9999</label> <br />
+          <input type="tetx" name="telefone" id="telefone"
+          pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"
+          required/>
+
+        </li>
+
+        <li>
+          <label for="assunto">Assunto</label> <br />
+          <select name="assunto">
+            <option value="selecione">-- Selecione --</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="sugestao">Sugestão</option>
+          </select required>
+        </li>
+
+        <li>
+          <label for="mensagem">Mensagem</label> <br />
+          <textarea name="mensagem" id="mensagem" cols="15" rows="3"></textarea>
+        </li>
+
+        <li>
+          <fieldset>
+            <legend>Opções de Resposta</legend>
+            <label for="email_option" id="email_option_label">E-Mail</label>
+            <input
+              type="checkbox"
+              name="email_option"
+              id="email_option"
+              value="email"
+            />
+
+            <label for="telefone_option">Telefone</label>
+            <input type="checkbox" name="telefon_optione" id="telefone_option" value="telefone"/>
+
+          </fieldset>
+        </li>
+
+      </ul>
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <br />
+    <br />
+
+    <footer>
+      <a href="https://www.facebook.com/ifsppirituba/?locale=pt_BR">
+        <img src="../images/facebook.png" width="50" height="50" />
+      </a>
+
+      <p>
+        IFSP - Campus Pirutuba - Av. Mutinga, 951 - Jardim Santo Elias - CEP:
+        05110-000 - São Paulo/SP - Contato: (011) 2504-0100
+      </p>
+    </footer>
+  </body>
+</html>
