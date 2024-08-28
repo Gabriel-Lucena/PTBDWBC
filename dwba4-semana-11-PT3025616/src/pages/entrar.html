@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Entrar</title>
 
+    <!-- Configuração do css do Bootstrap -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="../styles/commom/header.css" type="text/css" />
-    <link rel="stylesheet" href="../styles/pages/entrar.css" type="text/css" />
     <link rel="stylesheet" href="../styles/commom/footer.css" type="text/css" />
+    <link rel="stylesheet" href="../styles/pages/entrar.css" type="text/css" />
 
     <link rel="icon" href="../images/favicon_ifsp.ico" />
   </head>
   <body>
     <header>
-      <div class="navbar">
+      <div class="barraNavegacao">
         <a href="../../index.html">HOME</a>
         <a href="./eventos/eventos.html">EVENTOS</a>
         <a href="./contato.html">CONTATO</a>
-        <div class="dropdown">
-          <button class="dropbtn">
+        <div class="suspenso">
+          <button class="botao">
             CURSOS
             <i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-content">
+          <div class="suspenso-conteudo">
             <a href="./courses/ads.html"
               >Análise e Desenvolvimento de Sistemas</a
             >
@@ -41,34 +52,107 @@
 
     <br /><br />
 
-    <h1>Entrar</h1>
-
-    <br />
-
-    <form>
-      <div id="usuario">
-        <label for="usuario">Usuário</label>
-        <input type="text" id="usuario" required />
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col d-flex justify-content-center">
+          <img
+            class="w-25"
+            src="../images/ifsp.png"
+            alt="ícone do IFSP"
+            id="ifspLogo"
+          />
+        </div>
+        <div class="col"></div>
       </div>
 
-      <br />
-
-      <div id="senha">
-        <label for="senha">Senha</label>
-        <input type="text" id="senha" required />
+      <div class="row">
+        <div class="col"></div>
+        <div class="col d-flex justify-content-center">
+          <h1>Faça Login</h1>
+        </div>
+        <div class="col"></div>
       </div>
 
-      <br />
+      <form>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <div id="usuario">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Seu email"
+                id="usuario"
+                required
+              />
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
 
-      <div id="entrar">
-        <input type="submit" value="Entrar" />
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <div id="senha">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Senha"
+                id="senha"
+                required
+              />
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <div class="form-check d-flex justify-content-center">
+              <label class="form-check-label">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  value=""
+                />Lembrar de mim
+              </label>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
 
         <br />
-        <br />
 
-        <a href="">Esqueci a senha</a>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col d-flex justify-content-center">
+            <a href="">Esqueci a senha</a>
+          </div>
+          <div class="col"></div>
+        </div>
+
+        <div class="row">
+          <div class="col"></div>
+          <div class="col d-flex justify-content-center">
+            <input class="btn btn-primary w-100" type="submit" value="Login" />
+          </div>
+          <div class="col"></div>
+        </div>
+      </form>
+
+      <br />
+      <br />
+
+      <div class="row">
+        <div class="col"></div>
+        <div class="col d-flex justify-content-center text-secondary">
+          © 2020
+        </div>
+        <div class="col"></div>
       </div>
-    </form>
+    </div>
 
     <br />
     <br />
