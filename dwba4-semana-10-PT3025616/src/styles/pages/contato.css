@@ -1,0 +1,64 @@
+form {
+  margin-top: 2%;
+  margin-inline-start: 5%;
+}
+
+input {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+input:last-of-type {
+  margin-bottom: 2%;
+}
+
+label#email_option_label {
+  margin-inline-start: 2%;
+}
+
+input#email,
+input#telefone,
+textarea#mensagem {
+  width: 95%;
+  height: 40px;
+
+  border-radius: 5px;
+  border: 2px solid #d4d4d4;
+
+  box-shadow: none;
+}
+
+select {
+  margin-top: 1%;
+
+  width: 95%;
+  height: 40px;
+
+  padding-left: 1%;
+
+  border-radius: 5px;
+  border: 2px solid #d4d4d4;
+
+  background-color: #f8ecec;
+
+  box-shadow: none;
+}
+
+form fieldset:last-of-type {
+  width: 95%;
+}
+
+form > input:last-of-type {
+  width: 95%;
+  height: 45px;
+
+  background-color: #449c44;
+  border-width: 0px;
+  border-radius: 5px;
+
+  color: white;
+}
+
+form > input:last-of-type {
+  cursor: pointer;
+}
