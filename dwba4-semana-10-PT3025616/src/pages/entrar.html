@@ -55,15 +55,20 @@
     <div class="container">
       <div class="row">
         <div class="col"></div>
-        <div class="col">
-          <img src="../images/ifsp.png" alt="ícone do IFSP" id="ifspLogo" />
+        <div class="col d-flex justify-content-center">
+          <img
+            class="w-25"
+            src="../images/ifsp.png"
+            alt="ícone do IFSP"
+            id="ifspLogo"
+          />
         </div>
         <div class="col"></div>
       </div>
 
       <div class="row">
         <div class="col"></div>
-        <div class="col">
+        <div class="col d-flex justify-content-center">
           <h1>Faça Login</h1>
         </div>
         <div class="col"></div>
@@ -86,7 +91,7 @@
           <div class="col"></div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row">
           <div class="col"></div>
           <div class="col">
             <div id="senha">
@@ -104,13 +109,25 @@
 
         <div class="row">
           <div class="col"></div>
-          <div class="col justify-content-center">Lembrar de mim</div>
+          <div class="col">
+            <div class="form-check d-flex justify-content-center">
+              <label class="form-check-label">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  value=""
+                />Lembrar de mim
+              </label>
+            </div>
+          </div>
           <div class="col"></div>
         </div>
 
+        <br />
+
         <div class="row">
           <div class="col"></div>
-          <div class="col">
+          <div class="col d-flex justify-content-center">
             <a href="">Esqueci a senha</a>
           </div>
           <div class="col"></div>
@@ -118,8 +135,8 @@
 
         <div class="row">
           <div class="col"></div>
-          <div class="col">
-            <input class="btn btn-primary" type="submit" value="Login" />
+          <div class="col d-flex justify-content-center">
+            <input class="btn btn-primary w-100" type="submit" value="Login" />
           </div>
           <div class="col"></div>
         </div>
@@ -130,7 +147,9 @@
 
       <div class="row">
         <div class="col"></div>
-        <div class="col">© 2020</div>
+        <div class="col d-flex justify-content-center text-secondary">
+          © 2020
+        </div>
         <div class="col"></div>
       </div>
     </div>
